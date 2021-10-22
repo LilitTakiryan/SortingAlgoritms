@@ -1,6 +1,5 @@
 class InsertionSort {
     void insertionSort(int[] arr) {
-        //start by 1 assuming left is sorted
         for (int i = 1; i < arr.length; i++) {
             int cursor = arr[i];
             int prev = i - 1;
